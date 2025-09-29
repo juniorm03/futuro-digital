@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            color: navy;
+        }
+        h2 {
+            color: tomato;
+        }
+        table {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: lightgray;
+        }
+        .impar {
+            background-color: rgb(114, 114, 197);
+        }
+        .par {
+            background-color: rgb(228, 116, 125);
+        }
+    </style>
+    <title>Tabela de Horários</title>
+</head>
+<body>
+    <header>
+        <h1>Tabela de atividades semanais</h1>
+    </header>
+    <section>
+        <table border="1">
+            <tr>
+                <th>Dia da semana</th>
+                <th>Horário</th>
+                <th>Atividades</th>
+            </tr>
+            <tr class="impar">
+                <td>Segunda-feira</td>
+                <td>8h - 12h</td>
+                <td>Estudo de Desenvolvimento Web</td>
+            </tr>
+            <tr class="par">
+                <td>Terça-feira</td>
+                <td>14h - 18h</td>
+                <td>Prática de programação e projetos</td>
+            </tr>
+            <tr class="impar">
+                <td>Quarta-feira</td>
+                <td>8h - 12h</td>
+                <td>Leitura de artigos e tutoriais</td>
+            </tr>
+            <tr class="par">
+                <td>Quinta-feira</td>
+                <td>14h - 18h</td>
+                <td>Participação em fóruns e comunidades online</td>
+            </tr>
+            <tr class="impar">
+                <td>Sexta-feira</td>
+                <td>8h - 12h</td>
+                <td>Revisão e planejamento da semana seguinte</td>
+            </tr>
+        </table>
+    </section>
+</body>
+</html>

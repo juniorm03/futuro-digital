@@ -1,0 +1,16 @@
+1 - Qual será o resultado da execução do seguinte código?
+RESPOSTA: a) 15
+
+2 - O que faz o comando parseFloat() em JavaScript?
+RESPOSTA: Converte um número inteiro em um número decimal.
+
+3 - Qual das opções abaixo corretamente declara uma variável que armazenará o nome de
+uma pessoa como uma string em JavaScript?
+RESPOSTA: a) let nome = "João";
+
+4 - Qual é o tipo de dado da variável numero após a execução do seguinte código
+RESPOSTA: a) String
+
+5 - Qual será o resultado do código abaixo?
+RESPOSTA: a) O código retornará o valor da multiplicação entre os números.
+

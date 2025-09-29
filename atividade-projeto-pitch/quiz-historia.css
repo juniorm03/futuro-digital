@@ -1,0 +1,132 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 80px;
+}
+
+#quiz-background {
+    background-color: #21000f;
+    color: #feffd4;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#quiz-header {
+    text-align: center;
+    background-color: #450b1e;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    height: 120px;
+}
+
+#container-perguntas {
+    background-color: #9e2d4a;
+    margin-top: 80px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 1000px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+#alternativas { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c5b89f;
+    color: #450b1e;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+    margin-bottom: 10px;
+}
+
+
+#btn-proxima {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background: #c5b89f;
+    color: #21000f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn-proxima:hover {
+    background: #d1d1d1;
+}
+
+#cronometro {
+    font-weight: bold;
+    margin-top: 15px;
+    background-color: #c5b89f;
+    color: #9e2d4a;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: small;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #450b1e;
+    color: #c5b89f;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+    margin-bottom: 10px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.option:hover {
+    background: #d1d1d1;
+    color: #450b1e;
+}
+
+
+
+
+/* 🔹 Ajustes para telas menores */
+@media (max-width: 768px) {
+    #quiz-header {
+        padding: 10px;
+        font-size: 16px; /* diminui texto em tablets */
+    }
+
+    #container-perguntas {
+        margin-top: 100px; /* se header ficar mais alto */
+        padding: 15px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    #quiz-header {
+        font-size: 14px;
+    }
+
+    #container-perguntas {
+        margin-top: 120px; /* dá mais espaço em telas pequenas */
+        padding: 10px;
+        font-size: 13px;
+    }
+}

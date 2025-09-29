@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Pessoal - Seu Nome</title>
+</head>
+<body>
+    <header>
+        <h1>Seu Nome Completo</h1>
+        <p>Bem-vindo à minha página pessoal!</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Sobre Mim</h2>
+            <p>Olá, meu nome é [Seu Nome]. Sou um estudante iniciante em Desenvolvimento Web. Gosto de aprender novas tecnologias e de explorar o mundo da programação.</p>
+        </section>
+
+        <section>
+            <h2>Meus Hobbies</h2>
+            <ul>
+                <li>Programação</li>
+                <li>Leitura de livros de ficção científica</li>
+                <li>Jogar videogames</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Minhas Redes Sociais</h2>
+            <p>Você pode me encontrar nas seguintes redes sociais:</p>
+            <ul>
+                <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+                <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Contato</h2>
+            <form action="#" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Mensagem:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 [Seu Nome]. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+
+
+Explicação do Modelo:
+
+    Estrutura HTML básica: A página tem a estrutura mínima necessária com <!DOCTYPE html>, <html>, <head> e <body>.
+
+    Cabeçalho: Inclui o nome completo e uma breve introdução.
+
+    Seções:
+
+        Sobre Mim: Um parágrafo sobre o aluno.
+
+        Hobbies: Uma lista de hobbies com a tag <ul> (lista não ordenada).
+
+        Redes Sociais: Links para as redes sociais com a tag <a>.
+
+        Formulário de Contato: Um formulário simples com input para nome e e-mail, e textarea para mensagem.
+
+    Rodapé: Informações de copyright fictícias.
