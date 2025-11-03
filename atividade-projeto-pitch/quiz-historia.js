@@ -8,6 +8,11 @@ const questions = [
     question: "Em qual ano a Ditadura Militar acabou?",
     options: ["1985", "1970", "1969", "1975"],
     answer: 0
+    },
+    {
+    question: "Qual foi o Ato Insituicional que representou a face mais repressiva da Ditadura Militar?",
+    options: ["AI-2", "AI-3", "AI-4", "AI-5"],
+    answer: 3
     }
 ];
 
